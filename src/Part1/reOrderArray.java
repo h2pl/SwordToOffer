@@ -1,7 +1,10 @@
 package Part1;
 
+import org.junit.Test;
+
 import java.util.AbstractCollection;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by 周杰伦 on 2017/3/20.
@@ -15,17 +18,25 @@ public class reOrderArray {
         ArrayList<Integer> arrayList1=new ArrayList<>();
         ArrayList<Integer> arrayList2=new ArrayList<>();
         for(int i=0;i<array.length;i++){
-            if(array[i]%2==0)arrayList1.add(array[i]);
+            if(array[i]%2!=0)arrayList1.add(array[i]);
         }
         for(int i=0;i<array.length;i++){
-            if(array[i]%2!=0)arrayList2.add(array[i]);
+            if(array[i]%2==0)arrayList2.add(array[i]);
         }
         for(int i=0;i<array.length;i++){
             if(i<arrayList1.size())
-            array[i]= arrayList1.get(i+1);
-            if(i-arrayList1.size()<arrayList2.size())
-            array[i]= arrayList1.get(i+1);
+            array[i]= arrayList1.get(i);
+            if(i>=arrayList1.size())
+            array[i]= arrayList2.get(i-arrayList1.size());
         }
+
+
+    }
+    @Test
+    public void test(){
+        int []a={3,4,1,6,8,2,5};
+        reOrderArray(a);
+        System.out.println(Arrays.toString(a));
     }
 //    public void reOrderArray(int[] array) {
 //
