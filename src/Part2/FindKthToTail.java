@@ -1,4 +1,4 @@
-package Part1;
+package Part2;
 
 import ADT.ListNode;
 
