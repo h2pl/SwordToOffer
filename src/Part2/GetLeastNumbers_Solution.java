@@ -1,18 +1,20 @@
 package Part2;
 
 import org.junit.Test;
-
+import java.util.TreeSet;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.TreeSet;
+
 
 /**
  * Created by 周杰伦 on 2017/3/22.
+ * 输入n个整数，找出其中最小的K个数。例如输入4,5,1,6,2,7,3,8这8个数字，则最小的4个数字是1,2,3,4,。
  */
 public class GetLeastNumbers_Solution {
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
+
         ArrayList<Integer>arrayList=new ArrayList<>();
-        if(input==null || input.length==0 ||k==0)return arrayList;
+        if(input==null || input.length==0 ||k==0 ||k>input.length)return arrayList;
 
         TreeSet<Integer> treeSet=new TreeSet<>();
 
@@ -23,15 +25,16 @@ public class GetLeastNumbers_Solution {
             }
 
             else {
-                if(input[i]<treeSet.first()){
-                    treeSet.remove(treeSet.first());
+
+                if(input[i]<treeSet.last()){
+                    treeSet.pollLast();
                     treeSet.add(input[i]);
                 }
             }
         }
 
-        for(Integer i:treeSet){
-        arrayList.add(i);
+        for(Integer x:treeSet){
+        arrayList.add(x);
 
         }
         return arrayList;
@@ -40,7 +43,7 @@ public class GetLeastNumbers_Solution {
 
     @Test
     public void test(){
-       int []x={1,3,4,2,5,23,12,312,312,64,6,1};
-        System.out.println(GetLeastNumbers_Solution(x,3));
+       int []x={1,3,4,8,5,7,2,312,312,64,11,6};
+        System.out.println(GetLeastNumbers_Solution(x,7));
     }
 }

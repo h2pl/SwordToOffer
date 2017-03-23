@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628c4232-2a26-4c83-9856-2c8ad61a57e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/FindFirstCommonNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/FindStackMin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/HasSubtree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/PrintFromTopToBottom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwordToOffer/ADT/Alias.class" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/ADT/Alias.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part2/Mergesort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part3/FindGreatestSumOfSubArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Part3/InversePairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SwordToOffer/Part2/GetLeastNumbers_Solution.class" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/Part2/GetLeastNumbers_Solution.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Part2/FindKthToTail.java" afterPath="$PROJECT_DIR$/src/Part2/FindKthToTail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java" afterPath="$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java" />
     </list>
     <ignored path="SwordToOffer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,20 +31,8 @@
       <file leaf-file-name="reOrderArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2/reOrderArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
+            <state relative-caret-position="280">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Part2/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +43,7 @@
       <file leaf-file-name="HasSubtree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2/HasSubtree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="780">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +65,7 @@
       <file leaf-file-name="PrintFromTopToBottom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2/PrintFromTopToBottom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-530">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,7 +77,7 @@
       <file leaf-file-name="FindFirstCommonNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2/FindFirstCommonNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="120">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetLeastNumbers_Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java">
+      <file leaf-file-name="FindGreatestSumOfSubArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Part3/FindGreatestSumOfSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+            <state relative-caret-position="60">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InversePairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Part3/InversePairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,24 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Part2/ReverseList.java">
+      <file leaf-file-name="Mergesort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Part2/Mergesort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="53" column="5" selection-start-line="34" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="-590">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntryNodeOfLoop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Part1/EntryNodeOfLoop.java">
+      <file leaf-file-name="GetLeastNumbers_Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="280">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding>
-                <element signature="e#1528#1529#0" expanded="false" />
-                <element signature="e#1576#1577#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +133,8 @@
       <file leaf-file-name="FindKthToTail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Part2/FindKthToTail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="400">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -190,6 +185,9 @@
         <option value="$PROJECT_DIR$/src/Part2/FindKthToTail.java" />
         <option value="$PROJECT_DIR$/src/Part2/FindFirstCommonNode.java" />
         <option value="$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java" />
+        <option value="$PROJECT_DIR$/src/Part3/FindGreatestSumOfSubArray.java" />
+        <option value="$PROJECT_DIR$/src/Part2/Mergesort.java" />
+        <option value="$PROJECT_DIR$/src/Part3/InversePairs.java" />
       </list>
     </option>
   </component>
@@ -203,7 +201,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="width" value="1292" />
     <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -231,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +244,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SwordToOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SwordToOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SwordToOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Part3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,6 +300,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -298,19 +314,19 @@
       <recent name="D:\JAVA_BASIC\SwordToOffer\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetLeastNumbers_Solution.test">
-    <configuration default="false" name="Alias.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InversePairs">
+    <configuration default="false" name="FindGreatestSumOfSubArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ADT.*" />
+          <option name="PATTERN" value="Part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SwordToOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ADT" />
-      <option name="MAIN_CLASS_NAME" value="ADT.Alias" />
+      <option name="PACKAGE_NAME" value="Part3" />
+      <option name="MAIN_CLASS_NAME" value="Part3.FindGreatestSumOfSubArray" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -325,18 +341,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HasSubtree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FindGreatestSumOfSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Part2.*" />
+          <option name="PATTERN" value="Part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SwordToOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Part2" />
-      <option name="MAIN_CLASS_NAME" value="Part2.HasSubtree" />
+      <option name="PACKAGE_NAME" value="Part3" />
+      <option name="MAIN_CLASS_NAME" value="Part3.FindGreatestSumOfSubArray" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -351,18 +367,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HasSubtree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InversePairs.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Part2.*" />
+          <option name="PATTERN" value="Part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SwordToOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Part2" />
-      <option name="MAIN_CLASS_NAME" value="Part2.HasSubtree" />
+      <option name="PACKAGE_NAME" value="Part3" />
+      <option name="MAIN_CLASS_NAME" value="Part3.InversePairs" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -377,18 +393,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="GetLeastNumbers_Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InversePairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Part2.*" />
+          <option name="PATTERN" value="Part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SwordToOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Part2" />
-      <option name="MAIN_CLASS_NAME" value="Part2.GetLeastNumbers_Solution" />
+      <option name="PACKAGE_NAME" value="Part3" />
+      <option name="MAIN_CLASS_NAME" value="Part3.InversePairs" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -403,30 +419,24 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="GetLeastNumbers_Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SwordToOffer" />
+      <option name="MAIN_CLASS_NAME" value="Part2.Mergesort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Part2" />
-      <option name="MAIN_CLASS_NAME" value="Part2.GetLeastNumbers_Solution" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="SwordToOffer" />
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -674,19 +684,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Alias.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HasSubtree" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HasSubtree.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GetLeastNumbers_Solution" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GetLeastNumbers_Solution.test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FindGreatestSumOfSubArray.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FindGreatestSumOfSubArray" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InversePairs.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InversePairs" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Mergesort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GetLeastNumbers_Solution.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GetLeastNumbers_Solution" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HasSubtree" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HasSubtree.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Alias.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InversePairs" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InversePairs.test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Mergesort" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FindGreatestSumOfSubArray" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FindGreatestSumOfSubArray.test" />
       </list>
     </recent_temporary>
   </component>
@@ -707,39 +717,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetLeastNumbers_Solution - 2017.03.22 at 11h 59m 10s.xml">
-      <configuration name="GetLeastNumbers_Solution" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 31m 31s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GetLeastNumbers_Solution_test - 2017.03.22 at 12h 00m 10s.xml">
-      <configuration name="GetLeastNumbers_Solution.test" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 32m 49s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 40m 47s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 36m 36s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 41m 27s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 37m 23s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 44m 29s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 37m 41s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 45m 33s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 38m 13s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 47m 30s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 38m 24s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 51m 03s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 38m 30s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree - 2017.03.21 at 18h 51m 33s.xml">
-      <configuration name="HasSubtree" configurationId="JUnit" />
+    <history-entry file="InversePairs - 2017.03.23 at 12h 45m 45s.xml">
+      <configuration name="InversePairs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HasSubtree_test - 2017.03.21 at 18h 49m 51s.xml">
-      <configuration name="HasSubtree.test" configurationId="JUnit" />
+    <history-entry file="InversePairs_test - 2017.03.23 at 12h 39m 54s.xml">
+      <configuration name="InversePairs.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1292" height="696" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,13 +759,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30427352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3025641" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,6 +774,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -807,30 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Part1/GetNumberOfK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part1/LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2/reOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ADT/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -842,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,10 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#757#758#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,10 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1576#1577#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,10 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#757#758#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,10 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <element signature="e#757#758#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,10 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1576#1577#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,26 +1103,6 @@
         <state relative-caret-position="1500">
           <caret line="53" column="5" selection-start-line="34" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2/reOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2/PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,8 +1118,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Part2/HasSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="780">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part2/reOrderArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1193,17 +1154,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2/FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Part2/FindFirstCommonNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="120">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1211,10 +1164,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Part2/GetLeastNumbers_Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/Part2/FindKthToTail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        <state relative-caret-position="400">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part2/PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part3/FindGreatestSumOfSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part2/Mergesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Part3/InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
