@@ -6,24 +6,22 @@ import java.util.Stack;
  * Created by 周杰伦 on 2018/2/26.
  */
 public class IntToBin {
-    public int NumberOf1(int n) {
-        Stack<Integer> stack = new Stack<>();
-        if(n < 0){
-
-        }
-        if (n > 0) {
-            int num = 0;
-            int count = 0;
-            while(n>2) {
-                n = n/2;
-                if(n>0){
-                    count ++;
-                    stack.push(1);
-                }
+    public static int NumberOf1(int n) {
+        if (n == 0) return 0;
+        int count = 0;
+        for (int i = 0;i <=31; i++) {
+            int temp = n;
+            temp >>>= i;
+            if ((temp & 1) == 1) {
+                count ++;
             }
-
         }
-    return 1;
+        return count;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Integer.toBinaryString(-10));
+        System.out.println(NumberOf1(-10));
     }
 
 }
