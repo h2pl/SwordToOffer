@@ -11,13 +11,14 @@ import java.util.Arrays;
  输入一个数组,求出这个数组中的逆序对的总数P。并将P对1000000007取模的结果输出。
  即输出P%1000000007
  */
-public class InversePairs {
-    public int Pairs=0;
+public class 逆序对 {
+    public double Pairs = 0;
     public int InversePairs(int [] array) {
         if (array.length==0 ||array==null)
             return 0;
         mergesort(array,0,array.length-1);
-        return Pairs;
+        Pairs = Pairs + 1000000007;
+        return (int) (Pairs % 1000000007);
     }
     public void merge(int []array,int left,int mid,int right){
         //有一点很重要的是，归并分成两部分，其中一段是left到mid，第二段是mid+1到right。
@@ -32,8 +33,8 @@ public class InversePairs {
         while (p<=mid && q<=right){
             if(array[p]>array[q]){
                 temp[k++]=array[q++];
-                //当前半数组中有一个数i比后半个数组中的一个数j大时，由于两个数组
-                //已经分别有序，所以说明i到中间数之间的所有数都比j大。
+                //当前半数组中有一个数p比后半个数组中的一个数q大时，由于两个数组
+                //已经分别有序，所以说明p到中间数之间的所有数都比q大。
                 Pairs+=mid-p+1;
             }
             else temp[k++]=array[p++];

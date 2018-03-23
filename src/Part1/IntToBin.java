@@ -20,6 +20,8 @@ public class IntToBin {
     }
 
     public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer();
+        sb.toString().contains("dadas");
         System.out.println(Integer.toBinaryString(-10));
         System.out.println(NumberOf1(-10));
     }

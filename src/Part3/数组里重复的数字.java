@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by 周杰伦 on 2018/3/20.
  */
-public class duplicateNumInArray {
+public class 数组里重复的数字 {
     public boolean duplicate(int numbers[],int length,int [] duplication) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for(int i = 0;i < length;i ++) {

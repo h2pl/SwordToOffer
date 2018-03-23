@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by 周杰伦 on 2018/3/20.
  */
-public class StrToInt {
+public class 字符串转为整数 {
     public static int StrToInt(String str) {
         ArrayList<Integer> list = new ArrayList<>();
         for(int i = 0;i < str.length();i ++) {

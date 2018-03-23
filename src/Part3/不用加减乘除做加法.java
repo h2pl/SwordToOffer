@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by 周杰伦 on 2018/3/20.
  */
-public class AddWithoutAdd {
+public class 不用加减乘除做加法 {
     public static int Add(int num1,int num2) {
         if( num2 == 0 )return num1;
         if( num1 == 0 )return num2;
