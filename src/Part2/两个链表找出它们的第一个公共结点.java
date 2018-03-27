@@ -10,7 +10,7 @@ import java.util.Stack;
  * 题目描述
  输入两个链表，找出它们的第一个公共结点。
  */
-public class FindFirstCommonNode {
+public class 两个链表找出它们的第一个公共结点 {
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
         if(pHead1==null ||pHead2==null)return null;
         Stack<ListNode> stack1=new Stack<>();

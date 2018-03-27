@@ -10,7 +10,7 @@ import java.util.Queue;
  * 树的层次遍历
  * Created by 周杰伦 on 2017/3/22.
  */
-public class PrintFromTopToBottom {
+public class 树的层次遍历 {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
         ArrayList<Integer> arrayList=new ArrayList<>();
         if(root==null)return arrayList;

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by 周杰伦 on 2017/3/23.
  */
-public class Mergesort {
+public class 归并排序 {
 
         /**
          * 归并排序
